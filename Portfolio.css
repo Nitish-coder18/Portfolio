@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    overflow: hidden;
+    color: white;
+}
+
+.CoderImg {
+    position: absolute;
+    left: 62%;
+    bottom: 11%;
+    width: auto;
+    height: 55%;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+}
+
+.big-red {
+    position: absolute;
+    display: block;
+    z-index: -1;
+    top: 27%;
+    left: 78%;
+}
+
+.reddot {
+    position: absolute;
+    display: block;
+    top: 18%;
+    left: 68%;
+    border-radius: 50px;
+}
+
+.headdot {
+    position: absolute;
+    display: block;
+    height: 53px;
+    width: auto;
+    top: 8%;
+    left: 55%;
+    border-radius: 50px;
+}
+
+.Bottom-Red {
+    position: absolute;
+    display: block;
+    left: -4%;
+    bottom: -8.1%;
+}
+
+/* Main Section full */
+
+#main-section {
+    background: none;
+    position: absolute;
+    top: 26%;
+    left: 12%;
+}
+
+#name {
+    display: flex;
+    font-size: 64px;
+    background: none;
+}
+
+.Nitish {
+    margin-left: 1%;
+}
+
+.identity {
+    background: none;
+    font-size: 32px;
+    color: red;
+}
+
+.details {
+    background: none;
+    font-size: 24px;
+    width: 34%;
+    margin-top: 1%;
+}
+
+.find {
+    background: none;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.icons {
+    font-size: 25px;
+    margin-top: 1%;
+    background: none;
+}
+
+.iccolor {
+    color: aliceblue;
+}
+
+#define {
+    display: flex;
+    position: absolute;
+    left: 20%;
+    font-size: 30px;
+}
+
+.hire {
+    background-color: red;
+    padding: 13px;
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hire:hover {
+    transform: scale(1.2);
+}
+
+
+.resume {
+    margin-left: 80px;
+    background-color: red;
+    padding: 13px;
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.resume:hover {
+    transform: scale(1.2);
+}
+
+
+/* main section ends */
+
+.doubledot {
+    position: absolute;
+    display: block;
+    top: 6.5%;
+    left: 10%;
+    border-radius: 60px;
+}
+
+.codername {
+    font-size: 45px;
+    position: relative;
+    z-index: 1;
+    background: none;
+}
+
+.categories {
+    
+    z-index: 1;
+    background: none;
+    left: 50%;
+}
+
+.links {
+    font-size: 24px;
+    background: none;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    position: relative;
+    gap: 30px;
+    left: 40%;
+    top: 30%;
+}
+
+.contact {
+    font-size: 24px;
+   color: white;
+   text-decoration: none;
+   background-color: red;
+   padding: 10px;
+   border-radius: 17px;
+   position: relative;
+   top: 40%;
+   left: 45%;
+}
+
+#head-section {
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    margin-top: 4%;
+}
+
+/* settings fonts for all */
+
+.codername {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#name{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.Nitish {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.identity {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.details {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.find {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+#define {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+/* ending setting font for all */
