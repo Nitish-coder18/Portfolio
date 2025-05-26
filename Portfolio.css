@@ -260,3 +260,109 @@ body {
   "wdth" 100;
 }
 /* ending setting font for all */
+
+/* media query */
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+    padding: 10px;
+  }
+
+  #head-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .codername {
+    font-size: 32px;
+  }
+
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links {
+    font-size: 18px;
+    left: 0;
+    top: 0;
+    margin: 5px 10px;
+  }
+
+  .contact {
+    position: static;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .CoderImg {
+    position: static;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  #main-section {
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #name {
+    font-size: 32px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Nitish {
+    font-size: 36px;
+    margin-left: 0;
+  }
+
+  .identity {
+    font-size: 20px;
+  }
+
+  .details {
+    font-size: 16px;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .find {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .icons {
+    font-size: 22px;
+  }
+
+  #define {
+    position: static;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .hire,
+  .resume {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+  }
+
+  .big-red,
+  .reddot,
+  .headdot,
+  .Bottom-Red,
+  .doubledot {
+    display: none;
+  }
+}
